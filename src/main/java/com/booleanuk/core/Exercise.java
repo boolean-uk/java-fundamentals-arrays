@@ -49,14 +49,13 @@ public class Exercise {
     public String[] three() {
         // 3. Create a string array named cars that contains three names of car manufacturers: Audi, BMW and Dodge
         // WRITE YOUR CODE BETWEEN THIS LINE...
-
+        String[] cars = {"Audi", "BMW", "Dodge"};
 
 
         // ... AND THIS LINE
 
         // Then change the code below to remove the dummyArray completely and return the cars array you created above instead.
-        String[] dummyArray = {};
-        return dummyArray;
+        return cars;
     }
 
     public int four() {
@@ -66,7 +65,7 @@ public class Exercise {
         // sum of every number in the numbers array
         // WRITE YOUR CODE BETWEEN THIS LINE...
 
-        int result = 0;
+        int result = numbers[0] + numbers[1] + numbers[2] + numbers[3];
 
         // ... AND THIS LINE
 
@@ -76,13 +75,12 @@ public class Exercise {
     public float[] five() {
         // 5. Create an array called floats that contains 3 floating point numbers: 9.62, 23.17 and 3.14
         // WRITE YOUR CODE BETWEEN THIS LINE...
-
+        float[] floats = {9.62f, 23.17f, 3.14f};
 
 
         // ... AND THIS LINE
 
         // Then change the code below to remove the dummyArray completely and return the floats array you created instead
-        float[] dummyArray = {};
-        return dummyArray;
+        return floats;
     }
 }
