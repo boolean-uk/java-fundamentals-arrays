@@ -23,7 +23,9 @@ public class Exercise {
         // Using an index, change the number 17 in the numbers array to 68
         // WRITE YOUR CODE BETWEEN THIS LINE...
 
-
+        // the number in the square brackets is the index nr that needs to change, the number behind the = sign without
+        // the square brackets is the new value that will be stored in that index.
+        numbers[2] = 68;
 
         // ... AND THIS LINE
 
@@ -37,7 +39,7 @@ public class Exercise {
         // teacher contained in the teachers array
         // WRITE YOUR CODE BETWEEN THIS LINE...
 
-        String teacher = "";
+        String teacher = teachers[3];
 
         // ... AND THIS LINE
 
