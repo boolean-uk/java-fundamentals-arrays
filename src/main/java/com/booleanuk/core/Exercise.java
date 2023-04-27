@@ -1,5 +1,7 @@
 package com.booleanuk.core;
 
+import java.util.Arrays;
+
 public class Exercise {
     // The block of code below is a method definition. So far, you've been using methods created by other people
     // such as .length() and .charAt(n)
@@ -63,7 +65,7 @@ public class Exercise {
         // sum of every number in the numbers array
         // WRITE YOUR CODE BETWEEN THIS LINE...
 
-        int result = 0;
+        int result = Arrays.stream(numbers).reduce(0,Integer::sum);
 
         // ... AND THIS LINE
 
@@ -73,13 +75,13 @@ public class Exercise {
     public float[] five() {
         // 5. Create an array called floats that contains 3 floating point numbers: 9.62, 23.17 and 3.14
         // WRITE YOUR CODE BETWEEN THIS LINE...
-
+        float[] floats = {9.62f, 23.17f, 3.14f};
 
 
         // ... AND THIS LINE
 
         // Then change the code below to remove the dummyArray completely and return the floats array you created instead
-        float[] dummyArray = {};
-        return dummyArray;
+
+        return floats;
     }
 }
