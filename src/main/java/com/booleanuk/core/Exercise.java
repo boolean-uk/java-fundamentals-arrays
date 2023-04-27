@@ -23,7 +23,7 @@ public class Exercise {
         // Using an index, change the number 17 in the numbers array to 68
         // WRITE YOUR CODE BETWEEN THIS LINE...
 
-
+        numbers[2] = 68;
 
         // ... AND THIS LINE
 
@@ -37,7 +37,7 @@ public class Exercise {
         // teacher contained in the teachers array
         // WRITE YOUR CODE BETWEEN THIS LINE...
 
-        String teacher = "";
+        String teacher = teachers[3];
 
         // ... AND THIS LINE
 
@@ -48,13 +48,13 @@ public class Exercise {
         // 3. Create a string array named cars that contains three names of car manufacturers: Audi, BMW and Dodge
         // WRITE YOUR CODE BETWEEN THIS LINE...
 
-
+        String[] cars = {"Audi","BMW","Dodge"};
 
         // ... AND THIS LINE
 
         // Then change the code below to remove the dummyArray completely and return the cars array you created above instead.
         String[] dummyArray = {};
-        return dummyArray;
+        return cars;
     }
 
     public int four() {
@@ -63,8 +63,11 @@ public class Exercise {
         // 4. Using array indices, set the value of the result variable below to the
         // sum of every number in the numbers array
         // WRITE YOUR CODE BETWEEN THIS LINE...
-
         int result = 0;
+        for(int i=0;i<numbers.length;i++){
+            result += numbers[i];
+        }
+
 
         // ... AND THIS LINE
 
@@ -76,11 +79,11 @@ public class Exercise {
         // WRITE YOUR CODE BETWEEN THIS LINE...
 
 
-
+        float[] floats = {9.62f,23.17f,3.14f};
         // ... AND THIS LINE
 
         // Then change the code below to remove the dummyArray completely and return the floats array you created instead
         float[] dummyArray = {};
-        return dummyArray;
+        return floats;
     }
 }
