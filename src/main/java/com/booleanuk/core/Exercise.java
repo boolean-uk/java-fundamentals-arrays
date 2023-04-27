@@ -65,6 +65,8 @@ public class Exercise {
 
         int result = 0;
 
+        result = result + numbers[0] + numbers[1] + numbers[2] + numbers[3];
+
         // ... AND THIS LINE
 
         return result;
@@ -74,12 +76,11 @@ public class Exercise {
         // 5. Create an array called floats that contains 3 floating point numbers: 9.62, 23.17 and 3.14
         // WRITE YOUR CODE BETWEEN THIS LINE...
 
-
+        float[] floats = { 9.62f, 23.17f, 3.14f};
 
         // ... AND THIS LINE
 
         // Then change the code below to remove the dummyArray completely and return the floats array you created instead
-        float[] dummyArray = {};
-        return dummyArray;
+        return floats;
     }
 }
