@@ -66,8 +66,8 @@ public class Exercise {
 
         int result = 0;
 
-        for(int number: numbers) {
-            result += number;
+        for(int i = 0; i < numbers.length; i++) {
+            result += numbers[i];
         }
 
         // ... AND THIS LINE
