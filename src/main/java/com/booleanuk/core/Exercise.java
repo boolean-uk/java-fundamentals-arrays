@@ -41,7 +41,7 @@ public class Exercise {
         // teacher contained in the teachers array
         // WRITE YOUR CODE BETWEEN THIS LINE...
 
-        String teacher = "Carlo";
+        String teacher = teachers[3];
 
         // ... AND THIS LINE
 
