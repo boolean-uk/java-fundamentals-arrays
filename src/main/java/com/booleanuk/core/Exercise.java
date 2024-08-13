@@ -22,7 +22,7 @@ public class Exercise {
         // E.g. The first value is at index 0, the second at index 1, the third at index 3.
         // Using an index, change the number 17 in the numbers array to 68
         // WRITE YOUR CODE BETWEEN THIS LINE...
-
+        numbers[2] = 68;
 
 
         // ... AND THIS LINE
