@@ -24,6 +24,7 @@ public class Exercise {
         // WRITE YOUR CODE BETWEEN THIS LINE...
 
 
+        numbers[2] = 68;
 
         // ... AND THIS LINE
 
@@ -37,7 +38,7 @@ public class Exercise {
         // teacher contained in the teachers array
         // WRITE YOUR CODE BETWEEN THIS LINE...
 
-        String teacher = "";
+        String teacher = teachers[3];
 
         // ... AND THIS LINE
 
@@ -49,11 +50,12 @@ public class Exercise {
         // WRITE YOUR CODE BETWEEN THIS LINE...
 
 
+        String[] cars = {"Audi", "BMW", "Dodge"};
 
         // ... AND THIS LINE
 
         // Then change the code below to remove the dummyArray completely and return the cars array you created above instead.
-        String[] dummyArray = {};
+        String[] dummyArray = cars;
         return dummyArray;
     }
 
@@ -64,7 +66,7 @@ public class Exercise {
         // sum of every number in the numbers array
         // WRITE YOUR CODE BETWEEN THIS LINE...
 
-        int result = 0;
+        int result = numbers[0] + numbers[1] + numbers[2]  + numbers[3];
 
         // ... AND THIS LINE
 
@@ -75,12 +77,13 @@ public class Exercise {
         // 5. Create an array called floats that contains 3 floating point numbers: 9.62, 23.17 and 3.14
         // WRITE YOUR CODE BETWEEN THIS LINE...
 
+        float[] floats = {(float)9.62, (float)23.17, (float)3.14};
 
 
         // ... AND THIS LINE
 
         // Then change the code below to remove the dummyArray completely and return the floats array you created instead
-        float[] dummyArray = {};
+        float[] dummyArray = floats;
         return dummyArray;
     }
 }
